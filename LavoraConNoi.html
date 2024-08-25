@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavora con noi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="container-fluid text-center">
+            <div class="row py-3  align-items-center justify-content-center">
+                <div class="col-4 col-sm-2 col-md-2 col-lg-2">
+                    <a href="home.html" class="text-decoration-none">
+                        <img class="logo" src="assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-evenly text-decoration-none" id="navbar">
+                        <li><a role="button" href="ChiSiamo.html" class="btn btn-outline btn mx-4">Chi Siamo</a></li>
+                        <li>
+                            <div class="dropdown-center">
+                                <button class="btn btn-outline btn mx-4" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Destinazioni
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Destinazione.html?id=1">Europa</a></li>
+                                    <li><a class="dropdown-item" href="Destinazione.html?id=6">Asia</a></li>
+                                    <li><a class="dropdown-item" href="Destinazione.html?id=4">America</a></li>
+                                    <li><a class="dropdown-item" href="Destinazione.html?id=5">Oceania</a></li>
+                                    <li><a class="dropdown-item" href="Destinazione.html?id=3">Africa</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a role="button" href="Preventivatore.html" class="btn btn-outline btn mx-4">Preventivo</a>
+                        </li>
+                        <li><a role="button" href="Contatti.html" class="btn btn-outline btn mx-4">Contatti</a></li>
+                    </ul>
+    
+                    <div class="dropdown-center" id="menu">
+                        <button class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" aria-expanded="false">Menù</button>
+                        <ul class="dropdown-menu text-center" id="header-drop">
+                            <li><a class="dropdown-item" href="ChiSiamo.html">Chi Siamo</a></li>
+                            <li class="">
+                                <div class="accordion accordion-flush" id="accordiondest">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button p-2" type="button" id="destinazioni"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Destinazioni
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordiondest">
+                                            <div class="accordion-body p-0" id="destinazioni">
+                                                <ul class="listadest">
+                                                    <li><a class="dest p-2" href="Destinazione.html?id=1">Europa</a></li>
+                                                    <li><a class="dest p-2" href="Destinazione.html?id=6">Asia</a></li>
+                                                    <li><a class="dest p-2" href="Destinazione.html?id=4">America</a></li>
+                                                    <li><a class="dest p-2" href="Destinazione.html?id=5">Oceania</a></li>
+                                                    <li><a class="dest p-2" href="Destinazione.html?id=3">Africa</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li><a class="dropdown-item" href="Preventivatore.html">Preventivo</a></li>
+                            <li><a class="dropdown-item" href="Contatti.html">Contatti</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-4 ms-auto" id="dropdown">
+                    <img class="w-75 h-auto" src="assets/img/dropdown.png" data-bs-toggle="dropdown" aria-expanded="false"
+                        data-bs-auto-close="outside">
+    
+    
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="#">Area Personale</a></li>
+                        <li><a class="dropdown-item" href="ChiSiamo.html">Chi Siamo</a></li>
+                        <li>
+                        <li class="">
+                            <div class="accordion accordion-flush" id="accordiondest">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button p-2" type="button" id="destinazioni"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Destinazioni
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordiondest">
+                                        <div class="accordion-body p-0" id="destinazioni">
+                                            <ul class="listadest">
+                                                <li><a class="dest p-2" href="Destinazione.html?id=1">Europa</a></li>
+                                                <li><a class="dest p-2" href="Destinazione.html?id=6">Asia</a></li>
+                                                <li><a class="dest p-2" href="Destinazione.html?id=4">America</a></li>
+                                                <li><a class="dest p-2" href="Destinazione.html?id=5">Oceania</a></li>
+                                                <li><a class="dest p-2" href="Destinazione.html?id=3">Africa</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                        </li>
+                        </li>
+                        <li><a class="dropdown-item" href="Preventivatore.html">Preventivo</a></li>
+                        <li><a class="dropdown-item" href="Contatti.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-1  d-flex icons" id="">
+                    <a href="home.html" class="text-decoration-none icons">
+                        <img class="w-100 h-auto" src="assets/img/search.png" alt="">
+                    </a>
+                    <a href="#" class="text-decoration-none text-start icons" id="inputAccedi" data-bs-toggle="modal"
+                        data-bs-target="#formAccedi">
+                        <img class="w-100 h-auto" src="assets/img/login.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Modal accesso -->
+            <div class="modal fade" id="formAccedi" tabindex="-1" aria-labelledby="formModalAccedi" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-white" id="formModalAccedi">Effettua l'accesso</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="username" class="form-control rounded-3" id="usernameLogin" required
+                                        placeholder="name">
+                                    <label for="usernameLogin">Username</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="passwordLogin"
+                                        placeholder="Password">
+                                    <label for="passwordLogin">Password</label>
+                                </div>
+                                <p id="formtext"> Hai dimenticato la tua password? Clicca <a href="#"
+                                        class="text-decoration-underline" data-bs-toggle="modal"
+                                        data-bs-target="#formRegistrati">qui</a> per reimpostarla</p>
+                                <p id="formtext">Non sei ancora registrato? Clicca <a href="#"
+                                        class="text-decoration-underline" data-bs-toggle="modal"
+                                        data-bs-target="#formRegistrati">qui</a> per registrarti</p>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="bottone-modal" type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Torna
+                                indietro</button>
+                            <button id="bottone-modal" type="submit" class="btn" onclick="login()">Accedi</button>
+                                    <p id="message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal registrazione -->
+            <div class="modal fade" id="formRegistrati" tabindex="-1" aria-labelledby="formModalRegistrati"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 text-white" id="formModalRegistrati">Inserisci i tuoi dati per
+                                la
+                                registrazione</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-3" id="emailRegister" required
+                                        placeholder="name@example.com">
+                                    <label for="emailRegister">Email</label>
+                                    <div id="emailHelp" class="form-text">Non condivideremo mai i tuoi dati.
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="name" class="form-control rounded-3" id="usernameRegister" required
+                                        placeholder="Nome Utente">
+                                    <label for="usernameRegister">Nome Utente</label>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control rounded-3" id="passwordRegister"
+                                                placeholder="Password">
+                                            <label for="passwordRegister">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control rounded-3"
+                                                id="confirmPasswordRegister" placeholder="Conferma Password">
+                                            <label for="confirmPasswordRegister">Conferma Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="privacyCheck">
+                                    <label class="form-check-label" for="privacyCheck" id="formcheck">
+                                        Accetto le condizioni della <a href="PrivacyPolicy.html">Privacy policy</a>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="bottone-modal" type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Torna
+                                indietro</button>
+                            <button id="bottone-modal" type="button" class="btn">Registrati</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div class="contenuto py-4">
+        <div class="container px-4 py-5 mb-5">
+            <div class="row flex-md-row-reverse align-items-center ">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/lavora-con-noi.avif" class="d-block mx-lg-auto img-fluid rounded"
+                        alt="Bootstrap Themes" loading="lazy">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis mb-3">Lavora con noi</h1>
+                    <p class="lead">
+                    <h5>Sei un giovane in cerca di avventure e appassionato di viaggi? WeFlight è alla
+                        ricerca di persone dinamiche, creative e motivate a far parte del nostro team! Scopri le
+                        opportunità di carriera e come puoi contribuire a rendere ogni viaggio un'esperienza
+                        indimenticabile per i nostri clienti.</h5>
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="#posizioni" role="button" class="btn btn-lg px-4 me-md-2">Posizioni disponibili</a>
+                        <a href="#CV" role="button" class="btn btn-lg px-4 me-md-2">Invia il tuo CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center" id="posizioni">
+            <div class="row my-5">
+                <h2 class="mb-3 display-5">Posizioni disponibili</h2>
+                <div class="col-md-4 ">
+                    <img src="assets/img/tourOp.png" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Tour operator</h2>
+                    <p>
+                        Siamo alla ricerca di un Tour Operator esperto e appassionato per unirsi al nostro team
+                        dinamico. Il candidato ideale possiede una profonda conoscenza delle destinazioni turistiche,
+                        eccellenti capacità organizzative e un forte orientamento al cliente.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/callC.jpg" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Call Center</h2>
+                    <p>Siamo alla ricerca di un Operatore Call Center entusiasta e orientato al cliente per rafforzare
+                        il nostro team di assistenza. Il candidato ideale possiede eccellenti capacità comunicative,
+                        pazienza e un forte orientamento alla risoluzione dei problemi. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/programmatore.jpg" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Junior Web Developer</h2>
+                    <p>Siamo alla ricerca di un Programmatore talentuoso e motivato da aggiungere al nostro team in
+                        crescita. Il candidato ideale possiede una solida conoscenza dei linguaggi di programmazione più
+                        diffusi, un'attenzione meticolosa ai dettagli e la capacità di lavorare sia in autonomia che in
+                        team. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/manager.jpg" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Manager</h2>
+                    <p>Siamo alla ricerca di un Manager esperto e dinamico per guidare il nostro team verso nuovi
+                        traguardi di successo. Il candidato ideale possiede solide competenze di leadership, capacità
+                        strategiche e una comprovata esperienza nella gestione di progetti complessi. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/accountant.jpg" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Finance accountant</h2>
+                    <p>Siamo alla ricerca di un Finance accountant preciso e affidabile per unirsi al nostro team
+                        finanziario. Il candidato ideale possiede una solida conoscenza della contabilità, attenzione ai
+                        dettagli e ottime capacità analitiche.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/dataAn.jpg" class="img-fluid w-75 h-auto rounded" alt="">
+                    <h2 class="fw-normal">Data Analyst</h2>
+                    <p>Siamo alla ricerca di un Data Analyst talentuoso e analitico per rafforzare il nostro team. Il
+                        candidato ideale possiede una solida competenza in analisi dei dati, eccellenti capacità di
+                        problem solving e un forte orientamento ai dettagli.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-4 py-5 mb-5" id="CV">
+            <div class="row flex-md-row-reverse align-items-center ">
+
+                <div class="col-md-6">
+                    <h1 class="mb-3 display-5">Invia il tuo CV</h1>
+                    <p class="lead">
+                    <h5>Unisciti a noi e dai una svolta alla tua carriera! Siamo alla ricerca di talenti motivati e
+                        appassionati pronti a fare la differenza. Offriamo un ambiente di lavoro dinamico e stimolante,
+                        dove le tue competenze saranno valorizzate e avrai l'opportunità di crescere professionalmente.
+                        Se cerchi una sfida entusiasmante e desideri contribuire al successo della nostra azienda, non
+                        esitare: inviaci il tuo CV oggi stesso e inizia il tuo percorso con noi!</h5>
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="inputName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputLastName" class="form-label">Cognome</label>
+                            <input type="text" class="form-control" id="inputLastName" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                            <input type="text" class="form-control" id="inputAddress" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Città</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label" maxlength="2">Provincia</label>
+                            <input type="text" class="form-control" id="inputState" placeholder="BO,RM,MI..." required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">CAP</label>
+                            <input type="text" class="form-control" id="inputZip" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Allega il tuo CV</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1" id="formcheck">
+                                    Accetto le condizioni della <a href="PrivacyPolicy.html">Privacy policy</a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn">Invia</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<footer id="footer">
+    <div class="container mt-2">
+        <div class="row text-center">
+            <div class="d-flex justify-content-center py-4 my-4">
+                <div class="col-6 offset-1">
+                    <form>
+                        <h5>Iscriviti alla nostra newsletter!</h5>
+                        <p>Ricevi offerte mensili, curiosità e novità da WeFlight.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                            <button class="btn" type="button">Iscriviti</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-6 col-sm-6 col-md-3 text-start">
+                <h5>Destinazioni</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="Destinazione.html?id=1"
+                            class="nav-link p-0 text-muted">Europa</a></li>
+                    <li class="nav-item mb-2"><a href="Destinazione.html?id=4"
+                            class="nav-link p-0 text-muted">America</a></li>
+                    <li class="nav-item mb-2"><a href="Destinazione.html?id=3"
+                            class="nav-link p-0 text-muted">Africa</a></li>
+                    <li class="nav-item mb-2"><a href="Destinazione.html?id=6" class="nav-link p-0 text-muted">Asia</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="Destinazione.html?id=5"
+                            class="nav-link p-0 text-muted">Oceania</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3 text-start">
+                <h5>WeFlight</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="ChiSiamo.html" class="nav-link p-0 text-muted">Gruppo</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="LavoraConNoi.html" class="nav-link p-0 text-muted">Lavora con
+                            noi</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="AreaPersonale.html" class="nav-link p-0 text-muted">Area
+                            riservata</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="Contatti.html" class="nav-link p-0 text-muted">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 text-md-start">
+                <h5>Info e condizioni di vendita</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="FAQS.html" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="MetodiDiPagamento.html" class="nav-link p-0 text-muted">Metodi di
+                            pagamento</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="TerminiCondizioni.html" class="nav-link p-0 text-muted">Termini e
+                            condizioni</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="PrivacyPolicy.html" class="nav-link p-0 text-muted">Privacy
+                            Policy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 text-md-start">
+                <h5>Community & Social</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top border-dark">
+            <p>© 2024 WeFlight. Tutti i diritti riservati.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><img src="assets/img/instagram.svg" class="bi" width="24"
+                            height="24">
+
+                    </a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><img src="assets/img/facebook.svg" class="bi" width="24"
+                            height="24"></a>
+                </li>
+                <li class="ms-3"><a class="link-dark" href="#"><img src="assets/img/x-twitter.svg" class="bi" width="24"
+                            height="24">
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/general.js"></script>
+</body>
+
+
+</html>
